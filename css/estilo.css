@@ -1,0 +1,184 @@
+
+header {height: 320px;}
+
+header, section, footer, aside, nav, article, figure, figcaption,hgroup {
+ display: block;
+
+}
+
+html{
+background-image: url(../imagenes/patron3.png);
+
+}
+
+body{
+	text-align: center;
+	
+}
+#contenedor {
+
+	width:1200px;
+	margin: 30px auto;
+	text-align:left;
+/*background: linear-gradient(top, #FFFFFF 50%, #006699 90%);*/
+/*Gradiente radial */
+
+/*la posición de comienzo es el origen y puede ser declarada en pixeles, porcentaje
+o una combinación de palabras clave cemter, top, bottom, left y right
+finalmente color y posición para el inicio y final  */
+background-image: url(../imagenes/patron2.png);
+}
+
+
+
+#cabecera {
+background-image: url("../imagenes/castillo.png");
+background-position: center;
+border: 3px solid #999999;
+padding: 20px;
+
+}
+
+section table{
+ background-image: url("../imagenes/patron.png");
+ border: 10px solid rgba(0, 0, 0, 0.3);
+}
+td p{
+ border: 10px solid rgba(0, 0, 0, 0.3);
+ border-radius: 13px 13px 13px 13px;
+	-moz-border-radius: 13px 13px 13px 13px;
+	-webkit-border-radius: 13px 13px 13px 13px;
+	border: 0px solid #000000;
+	background-color: grey;
+	padding: 10px 10px;
+}
+section table, th, tr {	
+	text-align:center;
+	border-collapse: collapse;
+	padding: 10px 15px;
+	font-size: 30px;
+	text-shadow: black 3px 3px 5px;
+	color: white;
+	font-family: "Times New Roman", Times, serif;
+	
+}
+
+aside table {
+	padding: 0px 80px;
+}
+
+#fuente {
+	text-align:right;
+}
+
+video {
+	padding: 0px 24px;
+	width: 95%;
+}
+
+#seccion{
+	width: 195px;
+	float:left;
+	margin: 20px;
+
+}
+#columna{
+
+	float: left;
+	width:965px;
+	/*con fondo se ve el lateral pero 
+	como no llega al final le pongo altura de 500
+	personalmente creo que sin color de fondo mejor*/
+	background:#CCCCCC;
+	height: 1550px;
+	border-radius: 13px 13px 13px 13px;
+	-moz-border-radius: 13px 13px 13px 13px;
+	-webkit-border-radius: 13px 13px 13px 13px;
+	border: 0px solid #000000;
+	background-color: #A9A9A9;
+ 
+}
+aside p{
+	margin: 20px;
+}
+aside h1{
+	text-align: center;
+}
+#pie{
+
+	clear:both;
+	text-align:center;
+	padding: 20px;
+	border-top:2px solid #999999;
+}
+
+#principal{
+
+display:block;
+width:500px;
+margin: 10px auto;
+padding: 15px;
+text-align: center;
+
+border:1px solid black;
+background: #DDDDDD;
+-moz-border-radius:20px;
+-webkit-border-radius: 20px;
+border-radius:20px;
+/*el primer valor es el color y los otros dos valores el desplazamiento
+de la sombra.
+El último valor inset convierte la sombra externa en interna  */
+box-shadow:purple 5px 5px 10px inset;
+
+}
+
+section h2 {
+	padding: 0px 56px;
+	color: white;
+}
+
+aside h2 {
+	padding: 0px 200px;
+}
+
+hgroup {
+
+/* genera sombra en el texto.
+el color, distancia horizontal y vertical y el radio de difuminación  */
+	text-shadow: black 3px 3px 5px;
+	color: white;
+	font-size: 160%;
+	font-style: italic;
+	font-family: "Times New Roman", Times, serif;
+	
+}
+
+
+#cabecera figure img{display:block; margin-right:0px;}
+/*aplico mismas propiedades que en principal, menos text align que no le sirve a la imagen*/
+
+
+figure img{
+
+/*porque es en linea*/
+display:block;
+margin: 0 auto; /*la centro como una tabla que ahora sí es un elemento en bloque*/
+padding:15px;
+
+
+}
+
+th a{
+	color: white;
+}
+footer a{
+	color: white;
+	text-decoration: none;
+}
+footer td img{
+	border-radius: 13px 13px 13px 13px;
+	-moz-border-radius: 13px 13px 13px 13px;
+	-webkit-border-radius: 13px 13px 13px 13px;
+	border: 0px solid #000000;
+	background-color: #A9A9A9;
+ }

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<rss version="2.0">
+		<channel>
+			<title> Caballeros Medievales</title>
+			<link>https://YeisiCollins.github.io/Web-3/</link>
+			<description> Aquí podrás encontrar información detalla de caballeros medievales.</description>
+			<language>es-ES</language>
+			<managingEditor>juacobo1998@gmail.com</managingEditor>
+			<webMaster>juacobo1998@gmail.com</webMaster>
+			<ttl>30</ttl>
+				<item>
+					<title> Ideales</title>
+						<link>https://YeisiCollins.github.io/Web-3/html/ideales.html</link>
+						<description>En esta página puede visualizar los ideales más características de los caballeros medievales.</description>
+					<category>Documental</category>
+					<guid>https://YeisiCollins.github.io/Web-3/html/ideales.html
+					</guid>
+				</item>
+				<item>
+					<title>Armas</title>
+					<link> https://YeisiCollins.github.io/Web-3/html/armas.html </link>
+					<description> En esta página podemos ver información de las armas mása utilizadas por los caballeros medievales
+					</description>
+					<category>Descipción</category>
+					<guid>https://YeisiCollins.github.io/Web-3/html/armas.html</guid>
+				</item>
+		</channel>
+</rss>
